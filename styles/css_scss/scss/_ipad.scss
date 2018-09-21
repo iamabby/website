@@ -1,0 +1,11 @@
+@media screen and (min-width:0px) and (max-width:768px) {
+    body {
+        .banner {
+            position: relative;
+            height: rem(300);
+            min-width: 0;
+            overflow: hidden;
+            min-height: 0;
+        }
+    }
+}

@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* svn相对地址 */
+/* 项目下建立文本或者其他说明 本产品的产品及其对接的相关人员 */
+/**
+* Description: Base style 
+**/
+/*RESET
+-------------------------------------------------------------- */
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, ul, li {
+  margin: 0; }
+
+ul, input {
+  padding: 0; }
+
+ol, li {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+del, ins {
+  text-decoration: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+input, button, textarea, select {
+  font-size: 100%; }
+
+q:before, q:after {
+  content: ""; }
+
+addr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative; }
+
+sub {
+  top: -0.5em; }
+
+sup {
+  bottom: -0.25em; }
+
+/*CLEARFIX
+-------------------------------------------------------------- */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  display: inline-block; }
+
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/*FONT
+-------------------------------------------------------------- */
+body {
+  font: 12px/1.5 "Arial","\5FAE\8F6F\96C5\9ED1","\5b8b\4f53", sans-serif;
+  color: #000;
+  background: #fff; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+a:active {
+  color: #df1830; }
+
+.fb {
+  font-weight: 700; }
+
+.fn {
+  font-weight: 400; }
+
+.unl {
+  text-decoration: underline; }
+
+.no_unl {
+  text-decoration: none; }
+
+/*POSITION
+-------------------------------------------------------------- */
+.tl {
+  text-align: left; }
+
+.tc {
+  text-align: center; }
+
+.tr {
+  text-align: right; }
+
+.bc {
+  margin-left: auto;
+  margin-right: auto; }
+
+.fl {
+  float: left;
+  display: inline; }
+
+.fr {
+  float: right;
+  display: inline; }
+
+.vm {
+  vertical-align: middle; }
+
+.vt {
+  vertical-align: top; }
+
+.pr {
+  position: relative; }
+
+.pa {
+  position: absolute; }
+
+.abs-right {
+  position: absolute;
+  right: 0; }
+
+.abs-left {
+  position: absolute;
+  left: 0; }
+
+.hidden {
+  visibility: hidden; }
+
+.none {
+  display: none; }
+
+img {
+  display: block;
+  width: 100%; }
+
+body {
+  width: 100%;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  font-family: "microsoft yahei"; }
+
+.all {
+  width: 100%;
+  overflow: hidden; }
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  min-height: 200px;
+  min-width: 1260px;
+  overflow: hidden; }
+  .banner img {
+    width: 100%;
+    height: 100%; }
+
+.header {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0; }
+  .header .logo {
+    width: 180px;
+    height: 60px; }
+
+.main_box {
+  width: 1260px;
+  overflow: hidden;
+  margin: 0 auto; }
+
+.nav {
+  width: 100%;
+  background: #00796a; }
+  .nav ul {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0; }
+    .nav ul li {
+      display: inline-block;
+      vertical-align: middle;
+      width: 12.5%;
+      padding: 10px 0;
+      font-size: 14px;
+      text-align: center; }
+  .nav a {
+    color: #fff; }
+
+.common_footer {
+  width: 100%;
+  overflow: hidden;
+  min-height: 400px;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #000000;
+  background-position: center center; }
+  .common_footer .common_line {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #00796a; }
+  .common_footer .line_yellow {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #fdb918; }
+  .common_footer .main_box {
+    padding: 50px 0; }
+  .common_footer .common_rbox {
+    float: right;
+    width: 600px; }
+    .common_footer .common_rbox ul {
+      width: 100%;
+      font-size: 10px; }
+      .common_footer .common_rbox ul li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 5px 0;
+        text-align: center;
+        font-weight: bold; }
+        .common_footer .common_rbox ul li ul {
+          display: table;
+          width: 90px;
+          padding-top: 5px; }
+          .common_footer .common_rbox ul li ul li {
+            display: block;
+            text-align: center;
+            font-weight: normal;
+            opacity: 0.7; }
+  .common_footer .common_lbox {
+    float: left; }
+  .common_footer .copyright {
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    padding-bottom: 30px; }
+  .common_footer a {
+    color: #fff !important; }
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  body .banner {
+    position: relative;
+    height: 8.3333333333rem;
+    min-width: 0;
+    overflow: hidden;
+    min-height: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
